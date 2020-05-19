@@ -29,6 +29,7 @@ export default class App extends LightningElement {
       }
       else if(event.target.parentElement.classList.contains('slds-card-div-selected')){
         //console.log('3');
+        //comment for commit 4
         event.target.parentElement.classList.remove('slds-card-div-selected');
         event.target.parentElement.classList.add('slds-card-div-unselected');
       }  
