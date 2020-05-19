@@ -8,6 +8,7 @@ export default class App extends LightningElement {
      * @track indicates that if this object changes,
      * the UI should update to reflect those changes.
      */
+    console.log('test');
     @track rowNumber = [1,2,3];
     @track seatNumber = ['seat1','seat2','seat3','seat4','seat5','seat6','seat7','seat8','seat8','seat8','seat8'];
     @track totalAmount = 'Pay 100';
